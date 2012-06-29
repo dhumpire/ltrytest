@@ -30,3 +30,11 @@ git push origin master
 git pull origin master 
 #traer  del repositorio
 
+git add . #AGREGA TODOS LO ARCHIVOS MODIFICADOS CON UN PUNTO(.)
+
+git branch <nombre> #crear rama logica en tu repositorio
+
+git checkout <nombre-branch> #CAMBIARSE DE RAMA Y HACER LOS CAMBIOS EN EL REPOSITORIO
+#ES COMO UNA CARPETA DE MASTER
+
+
