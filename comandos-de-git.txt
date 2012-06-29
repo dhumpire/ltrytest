@@ -1,0 +1,32 @@
+-VARIABLES DE CONFIGURACION DE USUARIO/POR REPOSITORIO
+git config --global user.name "username"
+git config --global user.email "email_user"
+
+-GENERAR PUBLIC KEY
+ssh-keyhen
+
+-LEER LA LLAVE PUBLICA(PUBLIC KEY) para copiar la a Github
+cat  /ubicacion-en-donde-se-encuentra/*.pub
+
+-COMENZANDO PROYECO GUIT
+git init
+
+touch README2
+
+git add README2
+
+git status 
+#imprime lo que esta sucediendo
+
+git commit -m 'comentario del archivo al enviar'
+
+git remote add origin <direccion de proyecto github ssh> 
+#CONECTAR REMOTAMENTE NUESTRO GIT LOCAL CON EL GITHUB DE LA WEB
+#necesitamos tener la ssh key bien configuradas
+
+git push origin master 
+#enviar archivos al repositorio
+
+git pull origin master 
+#traer  del repositorio
+
